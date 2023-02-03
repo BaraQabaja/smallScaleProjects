@@ -1,0 +1,55 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.main
+{
+    height:100%;
+    width:100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container
+{
+    position:absolute;
+    top:100px;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+
+}
+
+.underline
+{
+
+    width:140px;
+    height:5px;
+   position: relative;
+    background-color: #C59D5f;
+    
+    top:170px
+
+}
+
+
+.title {
+    font-size: 50px;
+    letter-spacing: 2.6px;
+	
+
+	width: 300px;
+	height: 100px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+    
+}

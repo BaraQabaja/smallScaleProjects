@@ -1,0 +1,43 @@
+.menu
+{
+
+    display: flex;
+    position: absolute;
+    top:250px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.menu span{
+   display: flex;
+   margin:auto 20px auto 20px;
+  width:auto;
+  padding:3px 10px;
+   justify-content: center;
+   font-size: 25px;
+   color:#C59D5f;
+   transition: .5s;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.menu span:hover{
+    background-color: #C59D5f;
+    color: honeydew;
+}
+
+.categories_container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    width:1100px;
+    min-height:auto;
+    max-height:1000px;
+
+   justify-content: space-between;
+   /* align-content: space-between; */
+position: absolute;
+top:350px
+}

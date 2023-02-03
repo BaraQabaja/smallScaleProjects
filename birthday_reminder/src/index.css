@@ -1,0 +1,62 @@
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: pink;
+  font-size: 20px;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+   align-items: center; 
+
+}
+.container
+{
+  min-width:450px;
+  min-height:200px;
+  /* overflow-x: hidden; Hide horizontal scrollbar
+  overflow-y: auto; Add vertical scrollbar */
+max-height: 700px;
+  max-width:650px;
+background-color: seashell;
+border-radius: 3%;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-evenly ;
+padding-left:25px;
+margin:30px;
+}
+
+.container h3
+{
+/* margin:10px auto auto 10px; */
+font-weight: bold;
+margin-bottom: 30px;
+margin-top: 25px;
+
+}
+
+.container button{
+  font-size: 25px;
+    width: 300px;
+    color: white;
+    height: 40px;
+    background-color: pink;
+    border: 1px solid pink;
+    border-radius: 4%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
